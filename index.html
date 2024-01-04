@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="40" class="invert" src="./close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="120px" class="invert" src="./logo.svg" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="./home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="./search.svg" alt="search">Search</li>
+
+                </ul>
+
+
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="./playlist.svg" alt="">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img width="60" height="60" class="invert hamburger" src="./hamburger.svg" alt="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log In</button>
+                </div>
+            </div>
+            <div class="spotify-playlist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardcontainer">
+                    <div data-folder="Liveevents" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://concerts.spotifycdn.com/images/live-events_category-image.jpg" alt="">
+                        <h2>Live Events !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="Madeforyou" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe" alt="">
+                        <h2>Made For You !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="padcasts" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab6765630000ba8a81f07e1ead0317ee3c285bfa" alt="">
+                        <h2>Podcasts !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="newreleases" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112" alt="">
+                        <h2>New Releases !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="hindi" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67fb8200005caff5976b97bcf10d98acbae2cd" alt="">
+                        <h2>Hindi !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="punjabi" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002461fda205f5f952eff8bae70" alt="">
+                        <h2>Punjabi !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="Tamil" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67fb8200005caf4b3beede484da74b233fa299" alt="">
+                        <h2>Tamil !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="pop" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafa862ab80dd85682b37c4e768" alt="">
+                        <h2>Pop !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="party" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafcbf80f8ea695536eace4fd2c" alt="">
+                        <h2>Party !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="workout" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000029249b35f23fb596b6f006a15" alt="">
+                        <h2>Workout !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="indianclassical" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000028bc55791c7c394b24c319877" alt="">
+                        <h2>Indian Classical !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="love" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/9af79fd06e34dea3cd27c4e1cd6ec7343ce20af4" alt="">
+                        <h2>Love !</h2>
+                        <p>Hits to boots your moodand fill you with happiness!</p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+
+                        </div class="timeval">
+                        <div class="songbuttons">
+                            <img width="35" id="previous" src="./previous.svg" alt="">
+                            <img width="35" id="play" src="./play.svg" alt="">
+                            <img width="35" id="next" src="./nextsong.svg" alt="">
+                        </div>
+                        <div>
+                            <div class="songtime">
+
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="./volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
